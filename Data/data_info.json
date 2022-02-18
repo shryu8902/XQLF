@@ -1,0 +1,33 @@
+{
+    "USHOME":{
+            "path": "./Data/USHOME/prep_ushome.csv",
+            "load_col": "Consumption",
+            "date_col": "Date",
+            "add_cols": [
+                "maxtempC",
+                "mintempC",
+                "DewPointC",
+                "FeelsLikeC",
+                "HeatIndexC",
+                "WindChillC",
+                "WindGustKmph",
+                "cloudcover",
+                "humidity",
+                "precipMM",
+                "pressure",
+                "tempC",
+                "visibility",
+                "winddirDegree",
+                "windspeedKmph"
+            ],
+            "unit": "MWh"        
+    },
+    "TEST":{
+        "path": "./Data/USHOME/prep_ushome.csv",
+        "load_col": "Consumption",
+        "date_col": "Date",
+        "add_cols": [],
+        "unit": "MWh"        
+}
+
+}
