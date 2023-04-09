@@ -1,3 +1,11 @@
 !Data/
 Data/*
 !Data/data_info.json
+lightning_logs/
+.vscode/
+__pycache__/
+Data.zip
+EXP1/
+EXP2/
+HYPPARAM/
+logs/
